@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Roboto", sans-serif;
+}
+.nav{
+    display:flex;
+   align-items:center;
+    justify-content:center;
+}
+.navBar{
+    background-color:#e2f0f0;
+    display: flex;
+    align-items: center;
+    height:60px;
+    width:50%;
+    gap:120px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.navbar ul{
+    display: flex;
+   gap:130px;
+   padding-left: 20px;
+   padding-right: 30px;
+   justify-content: space-evenly;
+
+}
+.home{
+    display:flex;
+   align-items:center;
+    justify-content:center;
+}
+.home li{
+    background-color: cadetblue;
+    width:80px;
+    height:60px;
+}
+
